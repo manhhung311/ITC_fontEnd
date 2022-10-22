@@ -47,12 +47,23 @@
             <li class="nav-item ">
               <a href="#contact2" class="nav-link text-capitalize">Liên Hệ</a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link text-capitalize" href="#welcome-info" role="button" aria-haspopup="true"
-                aria-expanded="false">
-                Khóa Học
-              </a>
+              <div class="dropdown">
+                <a class=" dropdown-toggle nav-link" href="#welcome-info" role="button" id="dropdownMenuLink"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Khóa Học
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#welcome-info">Khóa Học Lập Trình Website</a>
+                  <a class="dropdown-item" href="#welcome-info">Khóa Học Lập Trình Python</a>
+                  <a class="dropdown-item" href="#welcome-info">Khóa Học Lập Trình C#</a>
+                  <a class="dropdown-item" href="#welcome-info">Khóa Học Lập Trình C++</a>
+                </div>
+              </div>
             </li>
+
 
             <li class="nav-item">
               <a href="#buddha" class="nav-link text-capitalize">Hoạt động</a>
@@ -456,7 +467,7 @@
                     <div class="card-image">
                       <img class="card-img-top buddha-card-img d-block w-100" src="img/thietkeanhbiatrian.jpg"
                         alt="Card image cap">
-                        <button class="btn btn-card">23/06/2021</button>
+                      <button class="btn btn-card">23/06/2021</button>
                     </div>
                     <div class="card-body text-center">
                       <p class="card-text text-uppercase mb-0">Thiết Kế Ảnh Bìa</p>
@@ -486,7 +497,7 @@
                     <div class="card-image">
                       <img class="card-img-top buddha-card-img d-block w-100" src="img/cuocthiolympic.jpg"
                         alt="Card image cap">
-                        <button class="btn btn-card">23/06/2021</button>
+                      <button class="btn btn-card">23/06/2021</button>
                     </div>
                     <div class="card-body text-center">
                       <p class="card-text text-uppercase mb-0">Olympic</p>
@@ -501,7 +512,7 @@
                     <div class="card-image">
                       <img class="card-img-top buddha-card-img d-block w-100" src="img/cuocthi5.jpg"
                         alt="Card image cap">
-                        <button class="btn btn-card">23/06/2021</button>
+                      <button class="btn btn-card">23/06/2021</button>
                     </div>
                     <div class="card-body text-center">
                       <p class="card-text text-uppercase mb-0">Cuộc Thi Tiktok</p>
@@ -536,8 +547,7 @@
           <div class="col-lg-4 menu-item mt-5">
             <h3 class="heading"><u>PHP</u></h3>
             <div class="menu-item-content">
-              <div class="menu-name pt-2 d-flex justify-content-between align-items-center" data-toggle="modal"
-                data-target="#modalbox">
+              <div class="menu-name pt-2 d-flex justify-content-between align-items-center">
                 <h3 class="menu-title ">Sách Hướng Dẫn PHP Căn Bản </h3>
                 <span class="menu-item-price align-self-end">23/06/2021</span>
               </div>
@@ -553,8 +563,7 @@
           <div class="col-lg-4 menu-item mt-5">
             <h3 class="heading"><u>SQL</u></h3>
             <div class="menu-item-content">
-              <div class="menu-name pt-2 d-flex justify-content-between align-items-center" data-toggle="modal"
-                data-target="#modalbox">
+              <div class="menu-name pt-2 d-flex justify-content-between align-items-center">
                 <h3 class="menu-title ">Sách Hướng Dẫn SQL Căn Bản </h3>
                 <span class="menu-item-price align-self-end">23/06/2021</span>
               </div>
@@ -568,8 +577,7 @@
           <div class="col-lg-4 menu-item mt-5">
             <h3 class="heading"><u>HTML</u></h3>
             <div class="menu-item-content">
-              <div class="menu-name pt-2 d-flex justify-content-between align-items-center" data-toggle="modal"
-                data-target="#modalbox">
+              <div class="menu-name pt-2 d-flex justify-content-between align-items-center">
                 <h3 class="menu-title ">HTML Cơ Bản </h3>
                 <span class="menu-item-price align-self-end">23/06/2021</span>
               </div>
@@ -589,11 +597,10 @@
             <div class="col-lg-4 menu-item mt-5">
               <h3 class="heading"><u>PHP</u></h3>
               <div class="menu-item-content">
-                <div class="menu-name pt-2 d-flex justify-content-between align-items-center" data-toggle="modal"
-                data-target="#modalbox">
-                <h3 class="menu-title ">Sách Hướng Dẫn PHP Căn Bản </h3>
-                <span class="menu-item-price align-self-end">23/06/2021</span>
-              </div>
+                <div class="menu-name pt-2 d-flex justify-content-between align-items-center">
+                  <h3 class="menu-title ">Sách Hướng Dẫn PHP Căn Bản </h3>
+                  <span class="menu-item-price align-self-end">23/06/2021</span>
+                </div>
                 <div class="menu-name2 pt-2 d-flex justify-content-center align-items-center">
                   <a onclick="loadBook('phpcanban.pdf')" id="link" target="_blank">
                     <img src="./img/php.jpg" alt="">
@@ -606,11 +613,10 @@
             <div class="col-lg-4 menu-item mt-5">
               <h3 class="heading"><u>PHP</u></h3>
               <div class="menu-item-content">
-                <div class="menu-name pt-2 d-flex justify-content-between align-items-center" data-toggle="modal"
-                data-target="#modalbox">
-                <h3 class="menu-title ">Sách Hướng Dẫn PHP Căn Bản </h3>
-                <span class="menu-item-price align-self-end">23/06/2021</span>
-              </div>
+                <div class="menu-name pt-2 d-flex justify-content-between align-items-center">
+                  <h3 class="menu-title ">Sách Hướng Dẫn PHP Căn Bản </h3>
+                  <span class="menu-item-price align-self-end">23/06/2021</span>
+                </div>
                 <div class="menu-name2 pt-2 d-flex justify-content-center align-items-center">
                   <a onclick="loadBook('phpcanban.pdf')" id="link" target="_blank">
                     <img src="./img/php.jpg" alt="">
@@ -623,11 +629,10 @@
             <div class="col-lg-4 menu-item mt-5">
               <h3 class="heading"><u>SQL</u></h3>
               <div class="menu-item-content">
-                <div class="menu-name pt-2 d-flex justify-content-between align-items-center" data-toggle="modal"
-                data-target="#modalbox">
-                <h3 class="menu-title ">Sách Hướng Dẫn PHP Căn Bản</h3>
-                <span class="menu-item-price align-self-end">23/06/2021</span>
-              </div>
+                <div class="menu-name pt-2 d-flex justify-content-between align-items-center">
+                  <h3 class="menu-title ">Sách Hướng Dẫn PHP Căn Bản</h3>
+                  <span class="menu-item-price align-self-end">23/06/2021</span>
+                </div>
                 <div class="menu-name2 pt-2 d-flex justify-content-center align-items-center">
                   <a onclick="loadBook('sqlcanban.pdf')" id="link" target="_blank">
                     <img src="./img/sql.jpeg" alt="">
@@ -794,7 +799,8 @@
       <div class="row text-center d-flex">
         <div class="footer-col col-md-4 col-sm-6 order-sm-1 pb-4">
           <h3 class="heading">Giới thiệu về CLB</h3>
-          <p class="footer-text">Câu lạc bộ được thành lập ngày dd/mm/yyyy tại trường đại học kinh tế kỹ thuật công nghiệp</p>
+          <p class="footer-text">Câu lạc bộ được thành lập ngày dd/mm/yyyy tại trường đại học kinh tế kỹ thuật công
+            nghiệp</p>
           <a href=""><button class="btn btn-button">Xem chi tiết</button></a>
         </div>
         <div class="footer-col col-md-4 col-sm-12 order-sm-3">
